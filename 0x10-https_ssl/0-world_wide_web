@@ -1,4 +1,5 @@
-splays Imformation about subdomains
+#!/usr/bin/env bash
+# Displays Imformation about subdomains
 
 # shellcheck disable=SC2086
 
