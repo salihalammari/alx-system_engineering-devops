@@ -1,4 +1,5 @@
-nsfer a file from local to my ubuntu server
+#!/usr/bin/env bash
+# Transfer a file from local to my ubuntu server
 
 # {$1} - IP Address of Ubuntu Server (52.23.172.2)
 # {$2} - Path to ssh key
