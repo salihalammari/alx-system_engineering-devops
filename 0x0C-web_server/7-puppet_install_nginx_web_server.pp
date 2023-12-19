@@ -1,8 +1,22 @@
-nstall Nginx web server (w/ Puppet)
-# Similar to task 4-not_found_page_404
-# install nginx and reset the default configurations
+# Automating project requirements using Puppet
 
-exec { 'server configuration':
-  provider => shell,
-  command  => 'sudo apt-get -y update; sudo apt-get -y install nginx; echo "Hello World!" > /var/www/html/index.html; sudo sed -i "/server_name _;/a location /redirect_me {\\n\\treturn 301 https://youtube.com;\\n\\t}\\n" /etc/nginx/sites-available/default; sudo service nginx restart',
+package { 'nginx':
+  ensure => installed,
 }
+
+file_line { 'install':
+  ensure => 'present',
+  path   => '/etc/nginx/sites-enabled/default',
+  after  => 'listen 80 default_server;',
+  line   => 'rewrite ^/redirect_me https://www.github.com/besthor permanent;',
+}
+
+file { '/var/www/html/index.html':
+  content => 'Hello World!',
+}
+
+service { 'nginx':
+  ensure  => running,
+  require => Package['nginx'],
+}
+
