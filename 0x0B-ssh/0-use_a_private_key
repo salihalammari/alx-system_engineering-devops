@@ -1,3 +1,4 @@
-onnects to server 18.205.38.219 with key in ~/.ssh/school
+#!/usr/bin/env bash
+# using ssh to connect to a server
 
-ssh -i ~/.ssh/school ubuntu@18.205.38.219
+ssh -i ~/.ssh/school ubuntu@52.3.247.103
