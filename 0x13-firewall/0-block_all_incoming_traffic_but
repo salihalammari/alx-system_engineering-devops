@@ -1,6 +1,7 @@
+#!/usr/bin/env bash
 heck the status of ufw to make sure it is active by running:
 
-sudo ufw status
+sudo apt install ufw
 
 # If ufw is not active, you can enable it by running:
 suo ufw enable
@@ -20,6 +21,7 @@ sudo ufw allow 80/tcp
 # Verify that the rules have been added by running:
 
 sudo ufw show added
+sudo ufw status verbose
 
 # Finally, enable ufw by running:
 sudo ufw enable
