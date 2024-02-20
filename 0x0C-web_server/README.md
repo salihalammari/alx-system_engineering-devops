@@ -1,11 +1,11 @@
 0x0C. Web server
 
 webserver: 
-  A web server is a computer/software that delivers web pages/server static content to clients over the internet. you type in a web address in your browser, your computer sends a request to the web server hosting that website, which then sends the web page back to your computer for display.
+  A web server is a computer/software that delivers web pages/server static content to clients over the internet. 
 
-  When 
-
-Resources
+  When you type in a web address in your browser, your computer sends a request to the web server hosting that website, which then sends the web page back to your computer for display.
+  
+#Resources
 Read or watch:
 
 How the web works
