@@ -1,4 +1,10 @@
 0x0C. Web server
+
+webserver: 
+  A web server is a computer/software that delivers web pages/server static content to clients over the internet. you type in a web address in your browser, your computer sends a request to the web server hosting that website, which then sends the web page back to your computer for display.
+
+  When 
+
 Resources
 Read or watch:
 
@@ -6,7 +12,7 @@ How the web works
 Nginx
 How to Configure Nginx
 Child process concept page
-Root and sub domain
+Root and subdomain
 HTTP requests
 HTTP redirection
 Not found HTTP response code
@@ -25,18 +31,18 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 General
 What is the main role of a web server
 What is a child process
-Why web servers usually have a parent process and child processes
+Why do web servers usually have a parent process and child processes
 What are the main HTTP requests
 DNS
 What DNS stands for
-What is DNS main role
+What is DNS's main role
 DNS Record Types
 A
 CNAME
 TXT
 MX
 Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+You are tasked to come up with solutions for the tasks below yourself to meet the above learning objectives.
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
@@ -50,4 +56,4 @@ All your Bash script files must be executable
 Your Bash script must pass Shellcheck (version 0.3.7) without any error
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
-You can’t use systemctl for restarting a process
+You can’t use systemctl to restart a process
