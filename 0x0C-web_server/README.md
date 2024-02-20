@@ -5,7 +5,7 @@ webserver:
 
   When you type in a web address in your browser, your computer sends a request to the web server hosting that website, which then sends the web page back to your computer for display.
   
-#Resources
+#  Resources
 Read or watch:
 
 How the web works
